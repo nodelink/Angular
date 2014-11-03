@@ -1,0 +1,42 @@
+<html>
+<head>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+</head>
+  <body>
+
+
+    <div ng-app="store">
+
+        <p>I am {{4 + 6}}</p>
+
+        <div ng-controller="StoreController as store">
+            <h1> {{store.product.name}} </h1>
+            <h2> ${{store.product.price}} </h2>
+            <p> {{store.product.description}} </p>
+        </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Vendor Libs -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+
+    <!-- UI Libs -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+    <!-- App libs -->
+    <script src="app/app.js"></script>
+
+  <body>
+</html>
